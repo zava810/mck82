@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { toast } from "sonner";
+import FontPicker from "./lifonts/lifp";
 
 type Props = {
   questions: {
@@ -81,7 +82,7 @@ const Questions = ({ questions, limit, category }: Props) => {
 
   const handleTimeUp = () => {
     handleCheck(questions[curr].correctAnswer, true);
-    toast.info("You ran out of Time!");
+    toast.info("you ran out oph time!");
   };
 
   useEffect(() => {
@@ -102,11 +103,12 @@ const Questions = ({ questions, limit, category }: Props) => {
 
   return (
     <div className="bg-white px-3 py-5 md:p-6 shadow-md w-full md:w-[80%] lg:w-[70%] max-w-5xl sm:rounded-lg">
+      <FontPicker/>
       <Progress value={progressValue} />
       <div className="flex justify-between items-center h-20 text-sm md:text-base">
         <div className="space-y-1">
-          <p>Category: {showCategory(category)}</p>
-          <p>Score: {score}</p>
+          <p>category: {showCategory(category)}</p>
+          <p>score: {score}</p>
         </div>
         <CountdownCircleTimer
           key={key}
@@ -152,7 +154,7 @@ const Questions = ({ questions, limit, category }: Props) => {
             {questions.length - 1 != curr ? "Next Question" : "Show Results"}
           </Button>
           <Button variant={"destructive"} onClick={handleQuit}>
-            Quit Quiz
+            kyuit kyuiz
           </Button>
         </div>
       </div>

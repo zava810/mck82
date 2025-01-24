@@ -21,13 +21,13 @@ const ResultModal = () => {
       <DialogContent>
         <DialogHeader>
           <DialogTitle className="text-center text-xl md:text-2xl">
-            Quiz Result
+            kyuiz result
           </DialogTitle>
         </DialogHeader>
         <Separator />
         <div className="flex flex-col items-center py-4 md:py-6">
           <p className="text-lg md:2xl text-primary font-semibold tracking-wide">
-            You scored: {`${additionalData?.score}/${additionalData?.limit}`}
+            you scored: {`${additionalData?.score}/${additionalData?.limit}`}
           </p>
           <Button
             onClick={() => {
@@ -36,7 +36,7 @@ const ResultModal = () => {
             }}
             className="mt-3 md:mt-5"
           >
-            Play Again
+            play again
           </Button>
         </div>
       </DialogContent>

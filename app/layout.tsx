@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import ModalProvider from "@/components/modals/modal-provider";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
+import { hindi15 } from "@/components/lifonts/localfonts";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Quizy - Test Your Knowledge!",
-  description: "A Quiz App built using Next JS",
+  title: "kyuizy - test your knowledge!",
+  description: "a kyuiz app built usiNg nekst zs",
 };
 
 export default function RootLayout({
@@ -18,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={hindi15.className}>
         <ModalProvider />
         <main>{children}</main>
-        <Toaster position="top-center" duration={5000} richColors />
+        <Toaster position="top-center" className={hindi15.className} duration={5000} richColors />
       </body>
     </html>
   );

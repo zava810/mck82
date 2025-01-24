@@ -24,13 +24,13 @@ const QuitQuizModal = () => {
         <AlertDialogHeader>
           <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
-            Your progress will be lost.
+            your progress will be lost.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogCancel>cancel</AlertDialogCancel>
           <AlertDialogAction onClick={() => router.push("/")}>
-            Confirm
+            confirm
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>

@@ -28,7 +28,7 @@ const QuizSettings = () => {
     <div className="flex flex-col justify-center items-center gap-4 md:gap-6">
       <Select value={category} onValueChange={(value) => setCategory(value)}>
         <SelectTrigger className="w-full md:max-w-xs xl:max-w-md">
-          <SelectValue placeholder="Category" />
+          <SelectValue placeholder="category" />
         </SelectTrigger>
         <SelectContent>
           {categoryOptions.map((category) => (
@@ -43,7 +43,7 @@ const QuizSettings = () => {
         onValueChange={(value) => setDifficulty(value)}
       >
         <SelectTrigger className="w-full md:max-w-xs xl:max-w-md">
-          <SelectValue placeholder="Difficulty" />
+          <SelectValue placeholder="diphiculty" />
         </SelectTrigger>
         <SelectContent>
           {difficultyOptions.map((difficulty) => (
@@ -65,7 +65,7 @@ const QuizSettings = () => {
         className="w-full md:max-w-xs xl:max-w-md"
       />
       <Button disabled={!difficulty || !category} onClick={handleQuizStart}>
-        Start Quiz
+        stArt kyuiz
       </Button>
     </div>
   );

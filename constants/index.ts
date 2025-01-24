@@ -1,27 +1,27 @@
 export const categoryOptions = [
   {
     value: "general_knowledge",
-    option: "General Knowledge",
+    option: "general knowledge",
   },
   {
     value: "arts_and_literature",
-    option: "Arts & Literature",
+    option: "Arts n literature",
   },
   {
     value: "film_and_tv",
-    option: "Film & TV",
+    option: "philm n tv",
   },
   {
     value: "food_and_drink",
-    option: "Food & Drink",
+    option: "phood n drink",
   },
   {
     value: "society_and_culture",
-    option: "Society & Culture",
+    option: "society n culture",
   },
   {
     value: "geography",
-    option: "Geography",
+    option: "geogrAphy",
   },
   {
     value: "history",
@@ -29,30 +29,30 @@ export const categoryOptions = [
   },
   {
     value: "music",
-    option: "Music",
+    option: "music",
   },
   {
     value: "sport_and_leisure",
-    option: "Sport & Leisure",
+    option: "sport & leisure",
   },
   {
     value: "science",
-    option: "Science",
+    option: "science_vigyan",
   },
 ];
 
 export const difficultyOptions = [
   {
     value: "easy",
-    option: "Easy",
+    option: "easy",
   },
   {
     value: "medium",
-    option: "Medium",
+    option: "medium",
   },
   {
     value: "hard",
-    option: "Hard",
+    option: "HArd",
   },
 ];
 
@@ -63,14 +63,14 @@ export const alphabeticNumeral = (index: number) => {
 };
 
 export const showCategory = (category: string) => {
-  if (category === "general_knowledge") return "General Knowledge";
-  else if (category === "science") return "Science";
-  else if (category === "sport_and_leisure") return "Sports & Leisure";
-  else if (category === "music") return "Music";
+  if (category === "general_knowledge") return "general Knowledge";
+  else if (category === "science") return "science";
+  else if (category === "sport_and_leisure") return "sports & leisure";
+  else if (category === "music") return "music";
   else if (category === "history") return "History";
-  else if (category === "geography") return "Geography";
-  else if (category === "society_and_culture") return "Society & Culture";
+  else if (category === "geography") return "geogrAphy";
+  else if (category === "society_and_culture") return "society & culture";
   else if (category === "arts_and_literature") return "Arts & Literture";
-  else if (category === "film_and_tv") return "Film & TV";
-  else if (category === "food_and_drink") return "Food & Drink";
+  else if (category === "film_and_tv") return "philm n tv";
+  else if (category === "food_and_drink") return "phood n drink";
 };
