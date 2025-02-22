@@ -1,24 +1,25 @@
 import localFont from "next/font/local";
 
 /////////////////
-export const binaryv115 = localFont({ src: "./fonts/115/binaryv115.woff2", display: "swap", });
-export const hex115 = localFont({ src: "./fonts/115/hex115.woff2", display: "swap", });
+export const binaryv15 = localFont({ src: "./fonts/15/binaryv15.woff2", display: "swap", });
 export const ing15 = localFont({ src: "./fonts/15/ing15.woff2", display: "swap", });
 export const ing25 = localFont({ src: "./fonts/25/ing25.woff2", display: "swap", });
-export const binaryh115 = localFont({ src: "./fonts/115/binaryh115.woff2", display: "swap", });
-export const eng115 = localFont({ src: "./fonts/115/eng115.woff2", display: "swap", });
+//export const eng15 = localFont({ src: "./fonts/15/eng15.woff2", display: "swap", });
+//export const eng25 = localFont({ src: "./fonts/25/eng25.woff2", display: "swap", });
+//export const hex15 = localFont({ src: "./fonts/15/hex15.woff2", display: "swap", });
+//export const binaryh15 = localFont({ src: "./fonts/15/binaryh15.woff2", display: "swap", });
 /////////////////
-export const bangla115 = localFont({ src: "./fonts/115/bangla115.woff2", display: "swap", });
-export const guzrati115 = localFont({ src: "./fonts/115/guzrati115.woff2", display: "swap", });
-export const kannada115 = localFont({ src: "./fonts/115/kannada115.woff2", display: "swap", });
-export const malayalam115 = localFont({ src: "./fonts/115/malayalam115.woff2", display: "swap", });
-export const sinhala115 = localFont({ src: "./fonts/115/sinhala115.woff2", display: "swap", });
-export const telugu115 = localFont({ src: "./fonts/115/telugu115.woff2", display: "swap", });
-export const gurmukhi115 = localFont({ src: "./fonts/115/gurmukhi115.woff2", display: "swap", });
-export const hindi115 = localFont({ src: "./fonts/115/hindi115.woff2", display: "swap", });
-export const korean115 = localFont({ src: "./fonts/115/korean115.woff2", display: "swap", });
-export const oriya115 = localFont({ src: "./fonts/115/oriya115.woff2", display: "swap", });
-export const tamil115 = localFont({ src: "./fonts/115/tamil115.woff2", display: "swap", });
+//export const bangla115 = localFont({ src: "./fonts/115/bangla115.woff2", display: "swap", });
+//export const guzrati115 = localFont({ src: "./fonts/115/guzrati115.woff2", display: "swap", });
+//export const kannada115 = localFont({ src: "./fonts/115/kannada115.woff2", display: "swap", });
+//export const malayalam115 = localFont({ src: "./fonts/115/malayalam115.woff2", display: "swap", });
+//export const sinhala115 = localFont({ src: "./fonts/115/sinhala115.woff2", display: "swap", });
+//export const telugu115 = localFont({ src: "./fonts/115/telugu115.woff2", display: "swap", });
+//export const gurmukhi115 = localFont({ src: "./fonts/115/gurmukhi115.woff2", display: "swap", });
+//export const hindi115 = localFont({ src: "./fonts/115/hindi115.woff2", display: "swap", });
+//export const korean115 = localFont({ src: "./fonts/115/korean115.woff2", display: "swap", });
+//export const oriya115 = localFont({ src: "./fonts/115/oriya115.woff2", display: "swap", });
+//export const tamil115 = localFont({ src: "./fonts/115/tamil115.woff2", display: "swap", });
 /////////////////
 export const bangla15 = localFont({ src: "./fonts/15/bangla15.woff2", display: "swap", });
 export const guzrati15 = localFont({ src: "./fonts/15/guzrati15.woff2", display: "swap", });
