@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ModalProvider from "@/components/modals/modal-provider";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
-import { hindi15b } from "@/components/lifonts/localfonts";
+import { hindienglosoftw8asc } from "@/components/lifonts/localfonts";
 
 
 export const metadata: Metadata = {
@@ -17,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={hindi15b.className}>
+      <body className={hindienglosoftw8asc.className}>
         <ModalProvider />
         <main>{children}</main>
-        <Toaster position="top-center" className={hindi15b.className} duration={5000} richColors />
+        <Toaster position="top-center" className={hindienglosoftw8asc.className} duration={5000} richColors />
       </body>
     </html>
   );
